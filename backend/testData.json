@@ -1,0 +1,14 @@
+{
+    "model": "zelenyBazar.listing",
+    "fields": {
+        "title": "New plant from post",
+        "description": "This is new plant to test my api.",
+        "difficulty": "Medium",
+        "TradeTypeChoices": "Cash",
+        "size": "20-50cm",
+        "price": 150,
+        "plantType": "Alive plant",
+        "category": 9,
+        "author": 1
+    }
+}
