@@ -4,5 +4,9 @@ from .views import *
 urlpatterns = [
     path('listings/', viewListings ),
     path('seed/', seedData),
-    path('listing/<int:id>/', listing)
+    path('listings/<int:id>/', listing),
+    path('users/', viewUsers),
+    path('users/<int:id>/', viewUser),
+    path('comment/<int:id>/', commentDelete),
+    path('rating/<int:id>/', ratingDelete),
 ]
