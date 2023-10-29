@@ -1,21 +1,21 @@
 # ITU project - Zelený Bazár
-Bazár pre predaj, nákup, a výmenu rastlín
+fakin bazar
 
-# Inštalácia
+# Installation
 - `unzip xlogin00_src.zip`
 ## Backend
-- Vytvorenie venv a inštalácia potrebných modulov
+- Creating a virtual environment and isntalling
     - `cd backend`
     - `virtualenv -p python3 venv`
     - `source venv/bin/activate`
     - `pip install -r requirements.txt`
-- Spustenie lokálneho serveru
+- Running the local server
     - `python manage.py runserver`
-    - Beží na http://localhost:8000
+    - Runs at http://localhost:8000
 ## Frontend
-- V inom teminaly
+- In another terminal window
     - `cd frontend`
     - `npm install`
     - `npm start`
 
-- Aplikácia by mala bežať na http://localhost:3000
+- The application should run at http://localhost:3000
